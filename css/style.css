@@ -16,7 +16,7 @@ header {
     width: 1400px;
     height: 765px;
     margin: 0 auto;
-    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(image.png); */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     position: relative;
 }
 
@@ -148,21 +148,110 @@ main {
 }
 
 .fresh-projects {
-    width: 1155px;
+    width: 1400px;
     height: 1995px;
     margin: 0 auto;
     position: relative;
 }
 
 .fresh-projects__title {
+    Width: 1048px;
+    Height: 72px;
+    left: 120px;
     position: absolute;
-    left: 8.57%;
-    right: 16.57%;
-    top: 11.96%;
-    bottom: 87.1%;
+    display: block;
     font-style: normal;
     font-weight: 400;
     font-size: 55px;
     line-height: 72px;
     color: #FFFFFF;
+    letter-spacing: -0.03em;
+}
+
+.fresh-projects__project {
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(image.png);
+    border-radius: 30px;
+}
+
+.Realhome {
+    background-image: url(../resourses/first\ image\ projects\ @2x.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 112px;
+}
+
+.GLASS {
+    background-image: url(../resourses/second\ image\ projects@2x.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 662px;
+}
+
+.Fesiyen {
+    background-image: url(../resourses/third\ image@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1212px;
+}
+
+.project__title {
+    width: 401px;
+    height: 46px;
+    margin-top: 410px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.project__paragraph {
+    width: 506px;
+    height: 39px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+l   line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.fresh-projects__button {
+    width: 582px;
+    height: 153px;
+    position: absolute;
+    top: 1842px;
+    left: 123px;
+    display: block;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    padding-top: 56px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.fresh-projects__button:hover {
+    border: 1px solid #1BFF07;
+    border-radius: 4.67354px;
+    color: #1BFF07;
+    background-color: #000000;
 }
