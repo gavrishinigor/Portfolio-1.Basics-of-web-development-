@@ -2,37 +2,53 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Portfolio ORLOV</title>
 </head>
 <body>
     <header>
         <div class="header__container">
             <div class="container__logo-background">
-                <img class="container__logo" src="./resourses/ORLOV@2x.png" alt="">
+                <img src="./resourses/ORLOV@2x.png" alt="Фото разработчика Александра">
             </div>
             <ol class="header__nav">
-                <li class="nav__portfolio">портфолио</li>
-                <li class="nav__competencies">компетенции</li>
-                <li class="nav__servises">услуги</li>
-                <li class="nav__contacts">контакты</li>
+                <li>
+                    <a class="nav__portfolio" href="#fresh-projects">
+                        портфолио
+                    </a>
+                </li>
+                <li>
+                    <a class="nav__competencies" href="#my-competencies">
+                        компетенции
+                    </a>
+                </li>
+                <li>
+                    <a class="nav__servises" href="#skils">
+                        услуги
+                    </a>
+                </li>
+                <li>
+                    <a class="nav__contacts" href="#connection">
+                        контакты
+                    </a>
+                </li>
             </ol>
             <p class="header__subtitle">
                 Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов
             </p>
-            <h1 class="header__title">
+            <h1>
                 Привет, я Саша — фронтенд разарботчик и дизайнер сайтов
             </h1>
         </div>
     </header>
     <main>
-        <div class="fresh-projects">
+        <div class="fresh-projects" id="fresh-projects">
             <h2 class="title">
                 Самые свежие проекты
             </h2>
@@ -64,7 +80,7 @@
                 Смотреть все проекты
             </a>
         </div>
-        <div class="my-competencies">
+        <div class="my-competencies" id="my-competencies">
             <h2 class="title">
                 Мои компетенции
             </h2>
@@ -118,8 +134,78 @@
             </div>
 
         </div>
+        <div class="skils" id="skils">
+            <!-- ------------------------------------ -->
+            <div class="first-section__skils container__skils">
+                <div class="first-section__decor">
+                    <img src="./resourses/first-section__skils@2x.png" alt="">
+                </div>
+                <div class="first-section__description description__skils">
+                    <h3>
+                        Разработка сайта под ключ
+                    </h3>
+                    <p>
+                        Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач <br> Сайты должны быть понятными и удобными, ведь чем понятнее <br> сайт, тем быстрее пользователь совершит целевое действие
+                    </p>
+                </div>
+            </div>
+            <!-- ------------------------------------ -->
+            <div class="second-section__skils container__skils">
+                <div class="second-section__decor">
+                    <img src="./resourses/second-section__skils@2x.png" alt="">
+                </div>
+                <div class="second-section__description description__skils">
+                    <h3>
+                        Верстка сайтов
+                    </h3>
+                    <p>
+                        Это процесс создания HTML-документов и применения к ним <br> стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта
+                    </p>
+                </div>
+            </div>
+            <!-- ------------------------------------ -->
+            <div class="third-section__skils container__skils">
+                <div class="third-section__decor">
+                    <img src="./resourses/third-section__section@2x.png" alt="">
+                </div>
+                <div class="third-section__description description__skils">
+                    <h3>
+                        Разработка мобильного интерфейса
+                    </h3>
+                    <p>
+                        Это процесс создания интерактивных элементов на странице <br> с помощью JavaScript. Фронтенд разработчик может помочь <br> создать динамический и удобный пользовательский интерфейс <br> для вашего сайта или приложения.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="connection" id="connection">
+            <div class="connection__plug">
+                <div class="connection__contacts">
+                    <p>
+                        для связи:
+                    </p>
+                    <a href="htpps://instagram.com">
+                        instagram
+                    </a>
+                    <a href="https://t.me/">
+                        telegram
+                    </a>
+                    <a href="mailto:123@mail.ru">
+                        mail
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
+        <div class="footer">
+            <h4>
+                Портфолио фротнтенд-разработчика Саши Орлова
+            </h4>
+            <p>
+                Все права защищены. 2023
+            </p>
+        </div>
     </footer>
     
 </body>

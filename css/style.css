@@ -1,8 +1,13 @@
 body {
     background-color: black;
+    scroll-behavior: smooth;
+}
+
+h1 ,h2 ,h3 ,h4 ,p ,a {
     font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: -0.03em;
-    
 }
 
 header {
@@ -31,7 +36,7 @@ header {
     border-radius: 100px;
 }
 
-.container__logo {
+.header__container img {
     width: 109px;
     height: 30px;
     display: block;
@@ -42,16 +47,14 @@ header {
 .nav__portfolio {
     width: 93px;
     height: 23px;
+    text-decoration: none;
     display: inline-block;
     position: absolute;
     top: 33px;
     left: 773px;
     cursor: pointer;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
@@ -62,13 +65,12 @@ header {
 .nav__competencies {
     width: 93px;
     height: 23px;
+    text-decoration: none;
     display: inline-block;
     position: absolute;
     top: 33px;
     left: 916px;
     cursor: pointer;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
@@ -81,13 +83,12 @@ header {
 .nav__servises {
     width: 93px;
     height: 23px;
+    text-decoration: none;
     display: inline-block;
     position: absolute;
     top: 33px;
     left: 1080px;
     cursor: pointer;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
@@ -100,13 +101,12 @@ header {
 .nav__contacts {
     width: 93px;
     height: 23px;
+    text-decoration: none;
     display: inline-block;
     position: absolute;
     top: 33px;
     left: 1193px;
     cursor: pointer;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
@@ -116,34 +116,30 @@ header {
     color:#1BFF07;
 }
 
-.header__subtitle {
+.header__container p {
     position: absolute;
     width: 430px;
     height: 103px;
     left: 125px;
     top: 334px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
-    letter-spacing: -0.03em;
 }
 
-.header__title {
+.header__container h1 {
     width: 919px;
     height: 205px;
     position: absolute;
     top: 466px;
     left:119px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 80px;
     line-height: 70px;
-    letter-spacing: -0.03em;
     color: #1BFF07;
 }
-/* __________________main__________________ */
+
+/* __________________MAIN__________________ */
+
 main {
     
 }
@@ -162,12 +158,9 @@ main {
     left: 120px;
     position: absolute;
     display: block;
-    font-style: normal;
-    font-weight: 400;
     font-size: 55px;
     line-height: 72px;
     color: #FFFFFF;
-    letter-spacing: -0.03em;
 }
 
 .fresh-projects__project {
@@ -258,6 +251,8 @@ main {
     background-color: #000000;
 }
 
+/* __________________my-competencies________________ */
+
 .my-competencies {
     width: 1400px;
     height: 1377px;
@@ -277,24 +272,17 @@ main {
     width: 1048px;
     height: 46px;
     margin-bottom: 15px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 35px;
     line-height: 46px;
-    letter-spacing: -0.03em;
     color: #1BFF07;
 
 }
 
 .section__subtitle {
     width: 778px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 22px;
     line-height: 29px;
-    letter-spacing: -0.03em;
     color:#FFFFFF;
-
 }
 
 .first-logo-section {
@@ -388,4 +376,166 @@ main {
 .fourth-section h3 {
     width: 651px;
     height: 92px;
+}
+
+/* _____________skils___________________ */
+
+.skils {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.first-section__skils:before {
+    content: "Помогаю реализовать широкий спектр задач";
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    width: 403px;
+    height: 92px;
+    margin-bottom: 74px;
+    display: block;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.container__skils {
+    width: 1150px;
+    height: 483px;
+    margin-bottom: 74px;
+    margin-left: 125px;
+}
+
+.first-section__skils {
+    height: 649px;
+}
+
+.description__skils {
+    width: 1150px;
+    height: 283px;
+}
+
+.container__skils img {
+    width: 1150px;
+    height: 200px;
+    display: block;
+}
+
+.description__skils h3 {
+    font-size: 55px;
+    line-height: 72px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #1BFF07;
+}
+
+.description__skils p {
+    width: 800px;
+    height: 87px;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.description__title {
+    width: 749px;
+    height: 116px;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.second-section__skils {
+    margin-bottom: 137px;
+}
+
+.third-section__skils {
+    margin-bottom: 150px;
+}
+
+.connection {
+    width: 1400px;
+    height: 717px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    border-radius: 30px;
+    background-image: url(../resourses/connection\ image@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ______________connection_______________ */
+
+/* временная заглушка */
+.connection__plug {
+    width: 700px;
+    height: 717px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #191C19;
+}
+
+.connection__contacts {
+    width: 310px;
+    height: 308px;
+    position: absolute;
+    top: 320px;
+    left: 125px;
+}
+
+.connection__contacts p {
+    margin-bottom: 28px;
+    font-size: 35px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.connection__contacts a {
+    height: 60px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.connection__contacts a:hover {
+    color: #1BFF07;
+}
+
+/* _________________footer_______________ */
+
+.footer {
+    width: 1400px;
+    height: 289px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FFFFFF;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer h4 {
+    position: absolute;
+    top: 76px;
+    left: 125px;
+    font-family: 'Manrope';
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.footer p {
+    position: absolute;
+    top: 172px;
+    left: 125px;
+    font-family: 'Manrope';
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.5;
 }
