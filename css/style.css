@@ -1,4 +1,4 @@
-body {
+body, html {
     background-color: black;
     scroll-behavior: smooth;
 }
@@ -152,7 +152,7 @@ main {
     position: relative;
 }
 
-.title {
+.fresh-projects h2 {
     Width: 1048px;
     Height: 72px;
     left: 120px;
@@ -198,29 +198,23 @@ main {
     top: 1212px;
 }
 
-.project__title {
+.fresh-projects h3 {
     width: 401px;
     height: 46px;
     margin-top: 410px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     margin-left: 50px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 35px;
     line-height: 46px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
-.project__paragraph {
+.fresh-projects p {
     width: 506px;
     height: 39px;
     margin-left: 50px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     line-height: 39px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
