@@ -390,16 +390,11 @@ main {
     margin: 0 auto;
 }
 
-.first-section__skils:before {
-    content: "Помогаю реализовать широкий спектр задач";
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.03em;
+.before h2 {
     width: 403px;
     height: 92px;
     margin-bottom: 74px;
-    display: block;
+    margin-left: 125px;
     font-size: 35px;
     line-height: 46px;
     color: #FFFFFF;
@@ -412,54 +407,51 @@ main {
     margin-left: 125px;
 }
 
-.first-section__skils {
-    height: 649px;
-}
-
-.description__skils {
-    width: 1150px;
-    height: 283px;
-}
-
-.container__skils img {
+.section-decor {
     width: 1150px;
     height: 200px;
-    display: block;
+    border-radius: 30px;
 }
 
-.description__skils h3 {
+.section-decor img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section-description {
+    width: 1150px;
+    height: 283px;
+    padding-top: 38px;
+    background: #191C19;
+    border-radius: 30px;
+}
+
+.section-description h3 {
     font-size: 55px;
     line-height: 72px;
-    margin-top: 40px;
     margin-left: 40px;
     color: #1BFF07;
 }
 
-.description__skils p {
+.section-description p {
     width: 800px;
     height: 87px;
-    margin-top: 15px;
+    margin-top: 17px;
     margin-left: 40px;
     font-size: 22px;
     line-height: 29px;
     color: #FFFFFF;
 }
 
-.description__title {
-    width: 749px;
-    height: 116px;
-    font-size: 22px;
-    line-height: 29px;
-    color: #FFFFFF;
-}
-
-.second-section__skils {
+.second-container__skils {
     margin-bottom: 137px;
 }
 
-.third-section__skils {
+.third-container__skils {
     margin-bottom: 150px;
 }
+
+/* ______________connection_______________ */
 
 .connection {
     width: 1400px;
@@ -472,8 +464,6 @@ main {
     background-size: cover;
     background-position: 50% 50%;
 }
-
-/* ______________connection_______________ */
 
 /* временная заглушка */
 .connection__plug {
